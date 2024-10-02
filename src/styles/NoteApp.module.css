@@ -1,0 +1,14 @@
+.quillWrapper {
+  height: 300px;
+}
+
+.quillWrapper :global(.quill) {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.quillWrapper :global(.ql-container) {
+  flex: 1;
+  overflow: auto;
+}
